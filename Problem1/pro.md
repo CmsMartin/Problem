@@ -129,6 +129,7 @@ Subtask2（$20$ 分）：满足 $\sqrt n \le k \le n$；
 
 Subtask2（$60$ 分）：满足 $1 \le k \le n$；
 
-对于所有测试数据，$1 \le n \le 10^5$。
+对于所有测试数据，$1 \le n,m \le 10^5,1 \le a_i \le n$。
 
-# CMS loves NP technology
+# CMS loves  technology
+
