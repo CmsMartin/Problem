@@ -176,3 +176,4 @@ Subtask2（$60$ 分）：满足 $1 \le k \le n$；
 
 对于所有测试数据，$1 \le n,m \le 10^5,1 \le a_i \le n$。
 
+# CMS loves RANDOM technology
