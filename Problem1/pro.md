@@ -1,4 +1,49 @@
-# CMS loves SQUARE technology
+# CMS loves MATH technology
+
+## 题目描述
+
+本题包含多组测试数据。
+
+每组测试数据给定一个长度为 $n$ 的序列 $a$，令 $s=\max(a_1,a_2,\dots,a_{l-1},a_{r+1},\dots,a_{n-1},a_n)-\min(a_1,a_2,\dots,a_{l-1},a_{r+1},\dots,a_{n-1},a_n)+\max(a_l,a_{l+1},\dots,a_{r-1},a_r)-\min(a_l,a_{l+1},\dots,a_{r-1},a_r)$，要求选定一个区间 $[l,r]$，使得 $s$ 最大，输出 $s$。
+
+## 输入格式
+
+第一行一个整数 $T$ 表示测试数据个数。
+
+每组测试数据第一行一个整数 $n$，
+
+第二行包含 $n$ 个整数表示序列 $a$。
+
+## 输出格式
+
+## 输入样例
+
+```
+4
+8
+1 2 2 3 1 5 6 1
+5
+1 2 3 100 200
+4
+3 3 3 3
+6
+7 8 3 1 1 8
+```
+
+## 输出样例
+
+```
+9
+297
+0
+14
+```
+
+## 数据范围
+
+本题有且仅有一个测试点，测试点信息：
+
+$n = 10^5，t = 100，1 \le a_i \le 10^9$
 
 # CMS loves LOG technology
 
@@ -130,6 +175,4 @@ Subtask2（$20$ 分）：满足 $\sqrt n \le k \le n$；
 Subtask2（$60$ 分）：满足 $1 \le k \le n$；
 
 对于所有测试数据，$1 \le n,m \le 10^5,1 \le a_i \le n$。
-
-# CMS loves  technology
 
