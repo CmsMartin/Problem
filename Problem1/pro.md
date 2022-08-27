@@ -72,7 +72,6 @@ Subtask1（$15$ 分）：满足 $k \le 10$；
 
 Subtask2（$85$ 分）：无特殊限制。
 
-
 # CMS loves SQRT technology
 
 ## 题目描述
