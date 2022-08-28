@@ -45,6 +45,8 @@ void Dfs(int now) {
 int main() {
     freopen("bf.in", "r", stdin);
     freopen("bf.out", "w", stdout);
+
+    
     ios::sync_with_stdio(false);
     cin.tie(0);
     cout.tie(0);
