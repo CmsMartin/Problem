@@ -1,3 +1,15 @@
+|题目|CMS loves MATH technology|CMS loves LOG technology|CMS loves SQRT technology|CMS loves BF technology|
+| :--------: | :---------: | :--------: | :--------: | :--------:|
+|可执行文件名|math|log|sqrt|bf|
+|输入文件名|math.in|log.in|sqrt.in|bf.in|
+|输出文件名|math.out|log.out|sqrt.out|bf.out|
+|时间限制|1s|2s|1s|2s|
+|内存限制|256MB|256MB|256MB|1024MB|
+|测试点数目|1|46|60|63|
+|子任务数量|1|2|3|3|
+|是否有部分分|无|有|有|有|
+|题目类型|传统型|传统型|传统型|传统型|
+|是否存在 SPJ|否|否|否|是|
 # CMS loves MATH technology
 
 ## 题目描述
@@ -45,8 +57,9 @@
 
 本题有且仅有一个测试点，测试点信息：
 
-$n = 10^5，t = 100，1 \le a_i \le 10^9$
+$n = 10^5，t = 10，1 \le a_i \le 10^9$
 
+请使用较快的读入方式。
 # CMS loves LOG technology
 
 ## 题目描述
@@ -178,7 +191,7 @@ Subtask2（$60$ 分）：满足 $1 \le k \le n$；
 
 对于所有测试数据，$1 \le n,m \le 10^5,1 \le a_i \le n$。
 
-# CMS loves FORCES technology
+# CMS loves BF technology
 
 ## 题目描述
 
