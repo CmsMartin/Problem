@@ -253,7 +253,7 @@ Subtask2（$60$ 分）：满足 $1 \le k \le n$；
 
 本题有 $3$ 个子任务：
 
-Subtask1（$10$ 分）：满足 $1 \le n \le 20$；
+Subtask1（$10$ 分）：满足 $1 \le n \le 10$；
 
 Subtask2（$20$ 分）：满足 $1 \le n \le 40$；
 
