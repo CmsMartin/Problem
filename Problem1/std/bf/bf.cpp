@@ -6,11 +6,17 @@ int Cnt[2];
 
 bool Check() {
     Cnt[0] = Cnt[1] = 0;
+
     for (int i = 1; i <= N; i++) {
         Cnt[Vis[Belong[i]] ^ Color[i]]++;
-        if (Cnt[0] > Cnt[1]) return false;
+
+        if (Cnt[0] > Cnt[1])
+            return false;
     }
-    if (Cnt[0] != Cnt[1]) return false;
+
+    if (Cnt[0] != Cnt[1])
+        return false;
+
     return true;
 }
 
@@ -20,14 +26,20 @@ void Dfs(int now) {
             for (int i = 1; i <= N; i++) {
                 cout << (Vis[Belong[i]] ^ Color[i] ? '(' : ')');
             }
+
             exit(0);
         }
+
         return;
     }
+
     Vis[now] = true;
     Dfs(now + 1);
-    Vis[now] = false;
-    Dfs(now + 1);
+
+    if (Size[now] > 2) {
+        Vis[now] = false;
+        Dfs(now + 1);
+    }
 }
 
 int main() {
@@ -38,6 +50,7 @@ int main() {
     cout.tie(0);
 
     cin >> N;
+
     for (int i = 1; i <= N; i++) {
         cin >> P[i];
     }
@@ -46,12 +59,15 @@ int main() {
         if (Belong[i] == 0) {
             Belong[i] = ++num;
             bool flag = false;
+
             for (int j = P[i]; j != i; j = P[j]) {
                 flag ^= 1;
                 Color[j] = flag;
                 Belong[j] = num;
                 Size[num]++;
             }
+
+            Size[num]++;
         }
     }
 
