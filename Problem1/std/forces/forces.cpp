@@ -6,18 +6,18 @@ int Cnt[2];
 
 bool Check() {
     Cnt[0] = Cnt[1] = 0;
-    for(int i = 1; i <= N; i++) {
+    for (int i = 1; i <= N; i++) {
         Cnt[Vis[Belong[i]] ^ Color[i]]++;
-        if(Cnt[0] > Cnt[1]) return false;
+        if (Cnt[0] > Cnt[1]) return false;
     }
-    if(Cnt[0] != Cnt[1]) return false;
+    if (Cnt[0] != Cnt[1]) return false;
     return true;
 }
 
 void Dfs(int now) {
-    if(now > num) {
-        if(Check()) {
-            for(int i = 1; i <= N; i++) {
+    if (now > num) {
+        if (Check()) {
+            for (int i = 1; i <= N; i++) {
                 cout << (Vis[Belong[i]] ^ Color[i] ? '(' : ')');
             }
             exit(0);
@@ -31,6 +31,8 @@ void Dfs(int now) {
 }
 
 int main() {
+    freopen("forces.in", "r", stdin);
+    freopen("forces.out", "w", stdout);
     ios::sync_with_stdio(false);
     cin.tie(0);
     cout.tie(0);

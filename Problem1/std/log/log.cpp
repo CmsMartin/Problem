@@ -48,10 +48,10 @@ int main() {
             } else {
                 l = mid + 1;
             }
-        }   
+        }
         if (p) {
             Ans[Edge[i].id] = p;
-            Fa[p][Find(u, p)] = Find(v, p);    
+            Fa[p][Find(u, p)] = Find(v, p);
         }
     }
 
