@@ -10,6 +10,9 @@
 |是否有部分分|无|有|有|有|
 |题目类型|传统型|传统型|传统型|传统型|
 |是否存在 SPJ|否|否|否|是|
+
+---
+
 # CMS loves MATH technology
 
 ## 题目描述
@@ -60,6 +63,9 @@
 $n = 10^5，t = 10，1 \le a_i \le 10^9$
 
 请使用较快的读入方式。
+
+---
+
 # CMS loves LOG technology
 
 ## 题目描述
@@ -132,6 +138,8 @@ Subtask1（$15$ 分）：满足 $k \le 10$；
 
 Subtask2（$85$ 分）：无特殊限制。
 
+----
+
 # CMS loves SQRT technology
 
 ## 题目描述
@@ -190,6 +198,8 @@ Subtask2（$20$ 分）：满足 $\sqrt n \le k \le n$；
 Subtask2（$60$ 分）：满足 $1 \le k \le n$；
 
 对于所有测试数据，$1 \le n,m \le 10^5,1 \le a_i \le n$。
+
+---
 
 # CMS loves BF technology
 
